@@ -1,0 +1,12 @@
+1在添加使用支持velocity时，总是不支持vm，后来发现是pom文件里添加了
+<!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-thymeleaf</artifactId>-->
+        <!--</dependency>-->
+模板引擎导致的，注释掉后还是不行，
+发现报空指针
+application.properties
+spring.velocity.toolbox-config-location=/WEB-INF/classes/toolbox.xml
+没有添加toolbox.xml文件
+
+ 
