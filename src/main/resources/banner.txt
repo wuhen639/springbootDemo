@@ -1,22 +1,15 @@
-
-                         .,,:;;iiii;;:;r15hs,
-                  ,:;r3hrsrrrriiii;;::5989S31
-       .:,,  ,;irrssrs5i,,..  .,,,,,,..,,;1h,           s3Sr. .s3SS333S5h1i:,
-       ::55hri:,..   ..:ii;irri;:,,,,,:i131.            SBHS, .3BHA&&&AAHHBB&5:
-      ,,;31h5S1h11hh1iihh11sr;::::;;:;sSS;              SHA5. .3HA9....,:;s3&BAXr
-     ,i:S5si,i5399351i:iri;:::;;;:::i59h.               SHA5. .3HA3         ,SAHAi
-    ,5r5&9si   ,i15SSShsr;;;iiii;:;193;                 SHA5. .3HA3           9HH8
-    .ir11i,        .:is5S3333511s133r                   SHA5. .3HA3           iGHG.
-                         .,;r9G998s                     SHA5. .3HA3           ,SH8.
-                            ,s5SS1                      5HA5. .3HA3           ;8HG.
-                          .ii.::r:                      SHA5. .3HA3           5HHG
-                         s9; ,,:s;                     ;GHA1  .3HA3          1AHH1
-                  .    ;3&1 :;i;s;                  .:1XHB9.  .SHA3     .,r59HB&1
-                  ,. ,s555r;riis:.              ,S38XHBH&3.   .3HHXSSSS8XABBHGh:
-                   .:h1ir1si,  ri               :&&G9S1i,     .5XGX&&&X835si:
-                    is.isri    .i                ..             .......
-                   ;i  ;;;.     :,
-                  .:   ...
+==============================SpringBootTest========================================
+                                    .......,,
+                                  ..,is;;;iiii;;hS31
+                             ;r;::::;ir;::::,,,,:s1:       38: 1G8G8883h,
+                            ,rShhh1sr:i1sr;;:::i51.        XH; SB3;;ir5GA9,
+                           is9h:.ihSShsr;;;;:;hSi          GA; 5B5      5B8
+                           :ir,     ,;rs15S5hSs.           GA; 5B5       8&.
+                                         ,h33:             GA; 5B5       8&.
+                                        i;.:i             .XA: 5B5      sBG
+                                   .  :SS,;ii          .:sGBS  SBS .,;19HG;
+                                   ..r1hs;,i:         1XGG3s   5AX88889Si
+                                    :i:r;   :
 
 
                         ${spring-boot.version}
