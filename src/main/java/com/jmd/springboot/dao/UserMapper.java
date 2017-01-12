@@ -1,6 +1,6 @@
-package com.jd.springboot.dao;
+package com.jmd.springboot.dao;
 
-import com.jd.springboot.entity.User;
+import com.jmd.springboot.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
@@ -12,7 +12,7 @@ public interface UserMapper {
 
     int save(User user);
 
-    User selectById(Integer id);
+    List<User> selectById(Integer id);
 
     int updateById(User user);
 

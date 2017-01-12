@@ -5,22 +5,22 @@
 <mapper namespace="com.jmd.springboot.dao.UserMapper" >
 
     <insert id="save" parameterType="com.jmd.springboot.entity.User">
-        insert into user(name,age) values(#{name,jdbcType=VARCHAR},#{age,jdbcType=NUMERIC})
+        insert into t_user(username,age) values(#{userName,jdbcType=VARCHAR},#{age,jdbcType=NUMERIC})
     </insert>
 
     <select id="selectById" resultType="com.jmd.springboot.entity.User">
-        select * from user where id = #{id,jdbcType=NUMERIC}
+        select * from t_user where id = #{id,jdbcType=NUMERIC}
     </select>
 
     <update id="updateById" parameterType="com.jmd.springboot.entity.User">
-        update user set
-        name = #{name,jdbcType=VARCHAR} ,
+        update t_user set
+        username = #{userName,jdbcType=VARCHAR} ,
         age = #{age,jdbcType=NUMERIC}
         where id = #{id,jdbcType=NUMERIC}
     </update>
 
     <delete id="deleteById">
-        delete from user where id = #{id,jdbcType=NUMERIC}
+        delete from t_user where id = #{id,jdbcType=NUMERIC}
     </delete>
 
     <select id="queryAll" resultType="com.jmd.springboot.entity.User">
